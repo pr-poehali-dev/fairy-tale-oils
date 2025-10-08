@@ -78,6 +78,267 @@ const Index = () => {
       icon: 'Shield',
       gradient: 'from-emerald-200 via-green-100 to-lime-100',
       image: 'https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Герань гармонии',
+      description: 'Масло герани для баланса и красоты',
+      properties: 'Балансирует гормоны, улучшает состояние кожи, успокаивает',
+      story: 'Герань цветет на подоконнике Иды, охраняя дом от печали',
+      icon: 'Flower',
+      gradient: 'from-rose-200 via-pink-100 to-red-100',
+      image: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Пачули тайны',
+      description: 'Масло пачули для глубины и чувственности',
+      properties: 'Афродизиак, успокаивает, улучшает настроение',
+      story: 'Пачули хранит древние тайны восточных садов',
+      icon: 'Moon',
+      gradient: 'from-amber-200 via-orange-100 to-yellow-100',
+      image: 'https://images.unsplash.com/photo-1508062878650-88b52897f298?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Сандал умиротворения',
+      description: 'Масло сандала для медитации и покоя',
+      properties: 'Успокаивает ум, способствует медитации, афродизиак',
+      story: 'Сандал растет в священных рощах, где время течет медленно',
+      icon: 'TreePine',
+      gradient: 'from-stone-200 via-neutral-100 to-amber-100',
+      image: 'https://images.unsplash.com/photo-1615361200098-e7d309f6e6f7?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Ромашка нежности',
+      description: 'Масло ромашки для детей и чувствительной кожи',
+      properties: 'Успокаивает кожу, снимает раздражение, помогает при бессоннице',
+      story: 'Ромашка — самый добрый цветок в саду Иды',
+      icon: 'Sun',
+      gradient: 'from-yellow-100 via-amber-50 to-white',
+      image: 'https://images.unsplash.com/photo-1563136865-def69f663c0b?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Бергамот счастья',
+      description: 'Масло бергамота для радости и уверенности',
+      properties: 'Антидепрессант, тонизирует, поднимает настроение',
+      story: 'Бергамот дарит солнечную радость даже в хмурые дни',
+      icon: 'Sparkles',
+      gradient: 'from-lime-200 via-green-100 to-yellow-100',
+      image: 'https://images.unsplash.com/photo-1582794543139-8ac9cb0f7b11?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Нероли благодати',
+      description: 'Масло нероли для умиротворения души',
+      properties: 'Снимает стресс, афродизиак, улучшает сон',
+      story: 'Нероли — цветок апельсинового дерева, аромат невест',
+      icon: 'Cherry',
+      gradient: 'from-orange-100 via-peach-50 to-white',
+      image: 'https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Кедр силы',
+      description: 'Масло кедра для уверенности и защиты',
+      properties: 'Укрепляет нервную систему, антисептик, заземляет',
+      story: 'Кедр — могучее дерево, дарящее силу и стойкость',
+      icon: 'TreePine',
+      gradient: 'from-green-300 via-teal-100 to-emerald-100',
+      image: 'https://images.unsplash.com/photo-1511497584788-876760111969?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Корица огня',
+      description: 'Масло корицы для тепла и страсти',
+      properties: 'Согревает, афродизиак, тонизирует, улучшает кровообращение',
+      story: 'Корица — пряный огонь, разжигающий страсть и жизненную силу',
+      icon: 'Flame',
+      gradient: 'from-red-200 via-orange-100 to-amber-100',
+      image: 'https://images.unsplash.com/photo-1627662235549-e8c2e2c22b09?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Грейпфрут бодрости',
+      description: 'Масло грейпфрута для энергии и стройности',
+      properties: 'Тонизирует, помогает похудеть, освежает',
+      story: 'Грейпфрут дарит утреннюю бодрость и легкость',
+      icon: 'Zap',
+      gradient: 'from-pink-200 via-orange-100 to-yellow-100',
+      image: 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Можжевельник очищения',
+      description: 'Масло можжевельника для детокса',
+      properties: 'Очищает организм, выводит токсины, дезинфицирует',
+      story: 'Можжевельник — хранитель чистоты тела и духа',
+      icon: 'Droplets',
+      gradient: 'from-blue-200 via-teal-100 to-green-100',
+      image: 'https://images.unsplash.com/photo-1542396601-dca920ea2807?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Пихта леса',
+      description: 'Масло пихты для дыхания и иммунитета',
+      properties: 'Помогает при простуде, очищает воздух, укрепляет иммунитет',
+      story: 'Пихта приносит свежесть дремучего леса в ваш дом',
+      icon: 'TreePine',
+      gradient: 'from-emerald-200 via-green-100 to-teal-100',
+      image: 'https://images.unsplash.com/photo-1516738901171-8eb4fc13bd20?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Ветивер заземления',
+      description: 'Масло ветивера для стабильности',
+      properties: 'Заземляет, успокаивает, помогает при стрессе',
+      story: 'Ветивер уходит корнями глубоко в землю, даря устойчивость',
+      icon: 'Anchor',
+      gradient: 'from-stone-300 via-neutral-200 to-slate-100',
+      image: 'https://images.unsplash.com/photo-1591018653367-1fe170ab6dae?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Базилик ясности',
+      description: 'Масло базилика для концентрации',
+      properties: 'Улучшает память, снимает усталость, проясняет ум',
+      story: 'Базилик рос на кухне Иды, даря ясность мыслей',
+      icon: 'Brain',
+      gradient: 'from-green-200 via-lime-100 to-yellow-100',
+      image: 'https://images.unsplash.com/photo-1618375569909-3c8616cf7733?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Фенхель пищеварения',
+      description: 'Масло фенхеля для здорового живота',
+      properties: 'Улучшает пищеварение, снимает спазмы, очищает',
+      story: 'Фенхель — друг желудка и помощник в очищении',
+      icon: 'Soup',
+      gradient: 'from-lime-200 via-green-100 to-emerald-100',
+      image: 'https://images.unsplash.com/photo-1628556270448-4d4e4148e1b1?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Мелисса утешения',
+      description: 'Масло мелиссы для сердца и нервов',
+      properties: 'Успокаивает сердце, снимает тревогу, помогает при депрессии',
+      story: 'Мелисса — лимонный бальзам для усталой души',
+      icon: 'HeartPulse',
+      gradient: 'from-yellow-100 via-lime-50 to-green-100',
+      image: 'https://images.unsplash.com/photo-1609126448414-d30924652979?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Шалфей мудрости',
+      description: 'Масло шалфея для женского здоровья',
+      properties: 'Балансирует гормоны, антисептик, снимает воспаления',
+      story: 'Шалфей — мудрый целитель женских недугов',
+      icon: 'BookOpen',
+      gradient: 'from-purple-200 via-violet-100 to-indigo-100',
+      image: 'https://images.unsplash.com/photo-1629375925753-5c6d64f7eed1?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Тимьян храбрости',
+      description: 'Масло тимьяна для силы духа',
+      properties: 'Укрепляет иммунитет, антисептик, придает бодрость',
+      story: 'Тимьян дарит храбрость и стойкость в трудные времена',
+      icon: 'Sword',
+      gradient: 'from-red-200 via-pink-100 to-purple-100',
+      image: 'https://images.unsplash.com/photo-1612363148424-f7d4f2c10665?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Майоран покоя',
+      description: 'Масло майорана для глубокого расслабления',
+      properties: 'Снимает мышечное напряжение, успокаивает, помогает уснуть',
+      story: 'Майоран убаюкивает и дарит глубокий покой',
+      icon: 'BedDouble',
+      gradient: 'from-gray-200 via-slate-100 to-zinc-100',
+      image: 'https://images.unsplash.com/photo-1603048588665-791ca8aea617?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Петитгрейн обновления',
+      description: 'Масло петитгрейна для свежести',
+      properties: 'Освежает, снимает стресс, тонизирует кожу',
+      story: 'Петитгрейн — молодые листья апельсина, символ обновления',
+      icon: 'RefreshCw',
+      gradient: 'from-green-200 via-lime-100 to-yellow-100',
+      image: 'https://images.unsplash.com/photo-1613647116129-13dc7f665c4e?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Мирра священная',
+      description: 'Масло мирры для духовности',
+      properties: 'Заживляет, антисептик, способствует медитации',
+      story: 'Мирра — священная смола, дар древних королей',
+      icon: 'Church',
+      gradient: 'from-amber-300 via-orange-200 to-red-100',
+      image: 'https://images.unsplash.com/photo-1604600659542-f7035a4a9c1d?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Ладан молитвы',
+      description: 'Масло ладана для возвышения души',
+      properties: 'Успокаивает, способствует медитации, омолаживает кожу',
+      story: 'Ладан возносит молитвы к небесам',
+      icon: 'Flame',
+      gradient: 'from-sky-200 via-blue-100 to-indigo-100',
+      image: 'https://images.unsplash.com/photo-1620706857370-e1b9770e8bb1?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Розмарин памяти',
+      description: 'Масло розмарина для ясного ума',
+      properties: 'Улучшает память, стимулирует кровообращение, бодрит',
+      story: 'Розмарин — символ памяти и верности',
+      icon: 'Library',
+      gradient: 'from-teal-200 via-cyan-100 to-blue-100',
+      image: 'https://images.unsplash.com/photo-1595850759747-0bb2c87ef1fa?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Гвоздика страсти',
+      description: 'Масло гвоздики для огня и силы',
+      properties: 'Согревает, обезболивает, афродизиак, антисептик',
+      story: 'Гвоздика — пряный огонь страсти и силы',
+      icon: 'Sparkle',
+      gradient: 'from-red-300 via-rose-200 to-pink-100',
+      image: 'https://images.unsplash.com/photo-1632053002308-0e3fde544f3e?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Имбирь тепла',
+      description: 'Масло имбиря для согревания',
+      properties: 'Согревает, улучшает пищеварение, снимает тошноту',
+      story: 'Имбирь дарит согревающее тепло и жизненную силу',
+      icon: 'Thermometer',
+      gradient: 'from-orange-300 via-amber-200 to-yellow-100',
+      image: 'https://images.unsplash.com/photo-1599912027162-c5b8f5935edd?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Мандарин детства',
+      description: 'Масло мандарина для радости и игры',
+      properties: 'Успокаивает детей, поднимает настроение, помогает уснуть',
+      story: 'Мандарин пахнет новогодним праздником и детской радостью',
+      icon: 'Baby',
+      gradient: 'from-orange-200 via-yellow-100 to-amber-100',
+      image: 'https://images.unsplash.com/photo-1587049332474-5405800f57de?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Ваниль сладости',
+      description: 'Масло ванили для уюта и комфорта',
+      properties: 'Успокаивает, афродизиак, создает уют',
+      story: 'Ваниль — сладкий аромат домашнего тепла',
+      icon: 'Home',
+      gradient: 'from-amber-100 via-yellow-50 to-orange-50',
+      image: 'https://images.unsplash.com/photo-1596040704871-aba8e72403e3?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Кипарис вечности',
+      description: 'Масло кипариса для принятия перемен',
+      properties: 'Помогает при переходных периодах, успокаивает, укрепляет',
+      story: 'Кипарис — дерево вечности, помогающее отпустить прошлое',
+      icon: 'Hourglass',
+      gradient: 'from-emerald-300 via-teal-200 to-cyan-100',
+      image: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Нард преданности',
+      description: 'Масло нарда для верности',
+      properties: 'Успокаивает, помогает при бессоннице, афродизиак',
+      story: 'Нард — древнее масло преданности и верности',
+      icon: 'Infinity',
+      gradient: 'from-purple-300 via-violet-200 to-pink-100',
+      image: 'https://images.unsplash.com/photo-1612170153139-6f881ff067e0?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Апельсин радости',
+      description: 'Масло апельсина для хорошего настроения',
+      properties: 'Поднимает настроение, снимает тревогу, освежает',
+      story: 'Апельсин — солнечный фрукт, дарящий радость',
+      icon: 'Smile',
+      gradient: 'from-orange-300 via-yellow-200 to-amber-100',
+      image: 'https://images.unsplash.com/photo-1580052614034-c55d20bfee3b?w=400&h=400&fit=crop'
     }
   ];
 
