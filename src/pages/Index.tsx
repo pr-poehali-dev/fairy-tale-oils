@@ -12,28 +12,36 @@ const Index = () => {
       description: 'Масло лаванды для спокойствия и гармонии',
       properties: 'Успокаивает нервную систему, улучшает сон, снимает стресс',
       story: 'Как цветы в саду Иды, лаванда дарит покой и сладкие сны',
-      icon: 'Flower2'
+      icon: 'Flower2',
+      gradient: 'from-purple-200 via-purple-100 to-pink-100',
+      image: 'https://images.unsplash.com/photo-1611251157398-e81a7c4e6b4d?w=400&h=400&fit=crop'
     },
     {
       name: 'Розовая нежность',
       description: 'Масло розы для красоты и молодости',
       properties: 'Омолаживает кожу, питает, разглаживает морщины',
       story: 'Роза - королева цветов, хранящая секреты вечной красоты',
-      icon: 'Flower'
+      icon: 'Flower',
+      gradient: 'from-pink-200 via-rose-100 to-orange-100',
+      image: 'https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?w=400&h=400&fit=crop'
     },
     {
       name: 'Жасминовое волшебство',
       description: 'Масло жасмина для радости и любви',
       properties: 'Поднимает настроение, афродизиак, освежает',
       story: 'Жасмин распускается в лунном свете, даря магию и счастье',
-      icon: 'Sparkles'
+      icon: 'Sparkles',
+      gradient: 'from-yellow-100 via-amber-50 to-orange-100',
+      image: 'https://images.unsplash.com/photo-1615282642825-bbe8a4c6e4fb?w=400&h=400&fit=crop'
     },
     {
       name: 'Мятная свежесть',
       description: 'Масло мяты для бодрости и ясности',
       properties: 'Освежает, тонизирует, улучшает концентрацию',
       story: 'Мята растет у источника жизни, даря силы и энергию',
-      icon: 'Leaf'
+      icon: 'Leaf',
+      gradient: 'from-green-200 via-emerald-100 to-teal-100',
+      image: 'https://images.unsplash.com/photo-1628556270448-4d4e4148e1b1?w=400&h=400&fit=crop'
     }
   ];
 
@@ -83,28 +91,47 @@ const Index = () => {
 
       {activeSection === 'home' && (
         <section className="animate-fade-in">
-          <div className="container mx-auto px-4 py-16 md:py-24">
-            <div className="text-center max-w-3xl mx-auto mb-16">
-              <h2 className="text-4xl md:text-6xl font-display font-bold text-primary mb-6 animate-scale-in">
-                Волшебные масла из сказки
-              </h2>
-              <p className="text-lg md:text-xl text-muted-foreground font-body leading-relaxed">
-                Каждое масло — это цветок из волшебного сада, где когда-то гуляла маленькая Ида. 
-                Они хранят древние секреты красоты и здоровья, передающиеся из поколения в поколение.
-              </p>
+          <div className="relative overflow-hidden">
+            <div className="absolute inset-0 opacity-20">
+              <img 
+                src="https://images.unsplash.com/photo-1464320099070-750c1c08f7e1?w=1600&h=900&fit=crop"
+                alt="Волшебные цветы"
+                className="w-full h-full object-cover"
+              />
             </div>
-
+            <div className="relative container mx-auto px-4 py-24 md:py-32">
+              <div className="text-center max-w-3xl mx-auto">
+                <h2 className="text-4xl md:text-6xl font-display font-bold text-primary mb-6 animate-scale-in drop-shadow-sm">
+                  Волшебные масла из сказки
+                </h2>
+                <p className="text-lg md:text-xl text-foreground/90 font-body leading-relaxed drop-shadow-sm">
+                  Каждое масло — это цветок из волшебного сада, где когда-то гуляла маленькая Ида. 
+                  Они хранят древние секреты красоты и здоровья, передающиеся из поколения в поколение.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div className="container mx-auto px-4 py-16">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
               {oils.map((oil, index) => (
                 <Card 
                   key={index} 
-                  className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-primary/20 bg-white/80 backdrop-blur-sm"
+                  className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-primary/20 overflow-hidden bg-white"
                   style={{ animationDelay: `${index * 150}ms` }}
                 >
-                  <CardHeader className="text-center">
-                    <div className="mx-auto mb-4 w-20 h-20 rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center group-hover:scale-110 transition-transform animate-float">
-                      <Icon name={oil.icon} size={36} className="text-primary" />
+                  <div className={`h-48 bg-gradient-to-br ${oil.gradient} relative overflow-hidden`}>
+                    <img 
+                      src={oil.image} 
+                      alt={oil.name}
+                      className="w-full h-full object-cover opacity-70 group-hover:scale-110 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent" />
+                    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 w-16 h-16 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center shadow-lg animate-float">
+                      <Icon name={oil.icon} size={32} className="text-primary" />
                     </div>
+                  </div>
+                  <CardHeader className="text-center pt-8">
                     <CardTitle className="font-display text-xl">{oil.name}</CardTitle>
                     <CardDescription className="font-body">{oil.description}</CardDescription>
                   </CardHeader>
@@ -141,6 +168,15 @@ const Index = () => {
                 История нашего сада
               </h2>
               
+              <div className="mb-8 relative overflow-hidden rounded-3xl">
+                <img 
+                  src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1200&h=600&fit=crop"
+                  alt="Сказочный сад"
+                  className="w-full h-64 md:h-80 object-cover opacity-40"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-white via-white/50 to-transparent" />
+              </div>
+
               <Card className="mb-8 border-primary/20 bg-white/80 backdrop-blur-sm">
                 <CardContent className="p-8 md:p-12">
                   <div className="prose prose-lg max-w-none">
