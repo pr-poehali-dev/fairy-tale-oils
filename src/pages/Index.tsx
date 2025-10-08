@@ -381,6 +381,16 @@ const Index = () => {
               >
                 Свойства
               </button>
+              <button
+                onClick={() => setActiveSection('recipes')}
+                className={`px-3 md:px-4 py-2 rounded-full transition-all ${
+                  activeSection === 'recipes'
+                    ? 'bg-primary text-primary-foreground'
+                    : 'hover:bg-primary/10'
+                }`}
+              >
+                Рецепты
+              </button>
             </div>
           </div>
         </div>
@@ -586,6 +596,309 @@ const Index = () => {
                   </CardContent>
                 </Card>
               ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {activeSection === 'recipes' && (
+        <section className="animate-fade-in">
+          <div className="container mx-auto px-4 py-16 md:py-24">
+            <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-4 text-center">
+              Волшебные рецепты
+            </h2>
+            <p className="text-center text-lg text-muted-foreground font-body mb-12 max-w-2xl mx-auto">
+              Создайте домашнюю косметику, которую использовала сама Ида и её бабушка
+            </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+              <Card className="border-primary/20 bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all">
+                <CardHeader>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
+                      <Icon name="Sparkles" size={24} className="text-purple-600" />
+                    </div>
+                    <CardTitle className="font-display text-2xl">Ночной крем красоты</CardTitle>
+                  </div>
+                  <CardDescription className="font-body text-base">Для молодости и сияния кожи</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-4">
+                    <div className="bg-accent/10 rounded-xl p-4">
+                      <h4 className="font-display font-semibold mb-3 flex items-center gap-2">
+                        <Icon name="Package" size={18} />
+                        Ингредиенты:
+                      </h4>
+                      <ul className="space-y-2 font-body text-sm">
+                        <li>• 2 ст.л. масла ши</li>
+                        <li>• 1 ст.л. масла жожоба</li>
+                        <li>• 3 капли масла розы</li>
+                        <li>• 2 капли масла лаванды</li>
+                        <li>• 1 капля масла нероли</li>
+                      </ul>
+                    </div>
+                    <div className="bg-secondary/10 rounded-xl p-4">
+                      <h4 className="font-display font-semibold mb-3 flex items-center gap-2">
+                        <Icon name="Wand2" size={18} />
+                        Приготовление:
+                      </h4>
+                      <ol className="space-y-2 font-body text-sm list-decimal list-inside">
+                        <li>Растопите масло ши на водяной бане</li>
+                        <li>Добавьте масло жожоба, перемешайте</li>
+                        <li>Остудите до комнатной температуры</li>
+                        <li>Добавьте эфирные масла</li>
+                        <li>Взбейте миксером до кремовой текстуры</li>
+                      </ol>
+                    </div>
+                    <p className="text-xs italic text-muted-foreground font-body">
+                      ✨ Наносите на лицо перед сном, как делала Королева Цветов
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="border-primary/20 bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all">
+                <CardHeader>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center">
+                      <Icon name="Droplets" size={24} className="text-green-600" />
+                    </div>
+                    <CardTitle className="font-display text-2xl">Масло для массажа</CardTitle>
+                  </div>
+                  <CardDescription className="font-body text-base">Расслабляющее и романтичное</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-4">
+                    <div className="bg-accent/10 rounded-xl p-4">
+                      <h4 className="font-display font-semibold mb-3 flex items-center gap-2">
+                        <Icon name="Package" size={18} />
+                        Ингредиенты:
+                      </h4>
+                      <ul className="space-y-2 font-body text-sm">
+                        <li>• 50 мл миндального масла</li>
+                        <li>• 4 капли масла иланг-иланга</li>
+                        <li>• 3 капли масла сандала</li>
+                        <li>• 2 капли масла жасмина</li>
+                        <li>• 1 капля масла пачули</li>
+                      </ul>
+                    </div>
+                    <div className="bg-secondary/10 rounded-xl p-4">
+                      <h4 className="font-display font-semibold mb-3 flex items-center gap-2">
+                        <Icon name="Wand2" size={18} />
+                        Приготовление:
+                      </h4>
+                      <ol className="space-y-2 font-body text-sm list-decimal list-inside">
+                        <li>Налейте миндальное масло в тёмную бутылку</li>
+                        <li>Добавьте эфирные масла по порядку</li>
+                        <li>Плотно закройте и встряхните</li>
+                        <li>Оставьте на сутки для созревания</li>
+                      </ol>
+                    </div>
+                    <p className="text-xs italic text-muted-foreground font-body">
+                      ✨ Идеально для романтического вечера при свечах
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="border-primary/20 bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all">
+                <CardHeader>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-12 h-12 rounded-full bg-yellow-100 flex items-center justify-center">
+                      <Icon name="Sun" size={24} className="text-yellow-600" />
+                    </div>
+                    <CardTitle className="font-display text-2xl">Скраб для тела</CardTitle>
+                  </div>
+                  <CardDescription className="font-body text-base">Освежающий и тонизирующий</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-4">
+                    <div className="bg-accent/10 rounded-xl p-4">
+                      <h4 className="font-display font-semibold mb-3 flex items-center gap-2">
+                        <Icon name="Package" size={18} />
+                        Ингредиенты:
+                      </h4>
+                      <ul className="space-y-2 font-body text-sm">
+                        <li>• 1 стакан морской соли</li>
+                        <li>• 1/2 стакана оливкового масла</li>
+                        <li>• 5 капель масла грейпфрута</li>
+                        <li>• 3 капли масла лимона</li>
+                        <li>• 2 капли масла мяты</li>
+                      </ul>
+                    </div>
+                    <div className="bg-secondary/10 rounded-xl p-4">
+                      <h4 className="font-display font-semibold mb-3 flex items-center gap-2">
+                        <Icon name="Wand2" size={18} />
+                        Приготовление:
+                      </h4>
+                      <ol className="space-y-2 font-body text-sm list-decimal list-inside">
+                        <li>Смешайте соль и оливковое масло</li>
+                        <li>Добавьте эфирные масла</li>
+                        <li>Тщательно перемешайте</li>
+                        <li>Храните в стеклянной банке</li>
+                      </ol>
+                    </div>
+                    <p className="text-xs italic text-muted-foreground font-body">
+                      ✨ Используйте 2-3 раза в неделю для гладкой кожи
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="border-primary/20 bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all">
+                <CardHeader>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-12 h-12 rounded-full bg-pink-100 flex items-center justify-center">
+                      <Icon name="Heart" size={24} className="text-pink-600" />
+                    </div>
+                    <CardTitle className="font-display text-2xl">Бальзам для губ</CardTitle>
+                  </div>
+                  <CardDescription className="font-body text-base">Питательный и ароматный</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-4">
+                    <div className="bg-accent/10 rounded-xl p-4">
+                      <h4 className="font-display font-semibold mb-3 flex items-center gap-2">
+                        <Icon name="Package" size={18} />
+                        Ингредиенты:
+                      </h4>
+                      <ul className="space-y-2 font-body text-sm">
+                        <li>• 1 ст.л. пчелиного воска</li>
+                        <li>• 2 ст.л. масла кокоса</li>
+                        <li>• 1 ст.л. масла какао</li>
+                        <li>• 2 капли масла мяты</li>
+                        <li>• 1 капля масла ванили</li>
+                      </ul>
+                    </div>
+                    <div className="bg-secondary/10 rounded-xl p-4">
+                      <h4 className="font-display font-semibold mb-3 flex items-center gap-2">
+                        <Icon name="Wand2" size={18} />
+                        Приготовление:
+                      </h4>
+                      <ol className="space-y-2 font-body text-sm list-decimal list-inside">
+                        <li>Растопите воск и масла на водяной бане</li>
+                        <li>Снимите с огня и остудите немного</li>
+                        <li>Добавьте эфирные масла</li>
+                        <li>Разлейте по баночкам</li>
+                        <li>Дайте застыть 2-3 часа</li>
+                      </ol>
+                    </div>
+                    <p className="text-xs italic text-muted-foreground font-body">
+                      ✨ Секрет нежных губ Иды круглый год
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="border-primary/20 bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all">
+                <CardHeader>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
+                      <Icon name="Bath" size={24} className="text-blue-600" />
+                    </div>
+                    <CardTitle className="font-display text-2xl">Соль для ванны</CardTitle>
+                  </div>
+                  <CardDescription className="font-body text-base">Для релаксации и сна</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-4">
+                    <div className="bg-accent/10 rounded-xl p-4">
+                      <h4 className="font-display font-semibold mb-3 flex items-center gap-2">
+                        <Icon name="Package" size={18} />
+                        Ингредиенты:
+                      </h4>
+                      <ul className="space-y-2 font-body text-sm">
+                        <li>• 2 стакана морской соли</li>
+                        <li>• 1/2 стакана английской соли</li>
+                        <li>• 8 капель масла лаванды</li>
+                        <li>• 4 капли масла ромашки</li>
+                        <li>• 2 капли масла майорана</li>
+                      </ul>
+                    </div>
+                    <div className="bg-secondary/10 rounded-xl p-4">
+                      <h4 className="font-display font-semibold mb-3 flex items-center gap-2">
+                        <Icon name="Wand2" size={18} />
+                        Приготовление:
+                      </h4>
+                      <ol className="space-y-2 font-body text-sm list-decimal list-inside">
+                        <li>Смешайте оба вида соли в миске</li>
+                        <li>Добавьте эфирные масла по каплям</li>
+                        <li>Тщательно перемешайте ложкой</li>
+                        <li>Храните в герметичной банке</li>
+                      </ol>
+                    </div>
+                    <p className="text-xs italic text-muted-foreground font-body">
+                      ✨ Добавьте 3-4 ст.л. в тёплую ванну перед сном
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="border-primary/20 bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all">
+                <CardHeader>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-12 h-12 rounded-full bg-teal-100 flex items-center justify-center">
+                      <Icon name="Waves" size={24} className="text-teal-600" />
+                    </div>
+                    <CardTitle className="font-display text-2xl">Масло для волос</CardTitle>
+                  </div>
+                  <CardDescription className="font-body text-base">Для блеска и укрепления</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-4">
+                    <div className="bg-accent/10 rounded-xl p-4">
+                      <h4 className="font-display font-semibold mb-3 flex items-center gap-2">
+                        <Icon name="Package" size={18} />
+                        Ингредиенты:
+                      </h4>
+                      <ul className="space-y-2 font-body text-sm">
+                        <li>• 30 мл масла арганы</li>
+                        <li>• 20 мл масла кокоса</li>
+                        <li>• 4 капли масла розмарина</li>
+                        <li>• 3 капли масла кедра</li>
+                        <li>• 2 капли масла иланг-иланга</li>
+                      </ul>
+                    </div>
+                    <div className="bg-secondary/10 rounded-xl p-4">
+                      <h4 className="font-display font-semibold mb-3 flex items-center gap-2">
+                        <Icon name="Wand2" size={18} />
+                        Приготовление:
+                      </h4>
+                      <ol className="space-y-2 font-body text-sm list-decimal list-inside">
+                        <li>Смешайте базовые масла во флаконе</li>
+                        <li>Добавьте эфирные масла</li>
+                        <li>Встряхните перед каждым использованием</li>
+                        <li>Нанесите на влажные волосы на 30 минут</li>
+                      </ol>
+                    </div>
+                    <p className="text-xs italic text-muted-foreground font-body">
+                      ✨ Волосы Иды сияли благодаря этому рецепту
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div className="mt-16 max-w-3xl mx-auto">
+              <Card className="border-primary/20 bg-gradient-to-br from-primary/5 to-accent/5">
+                <CardContent className="p-8">
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0">
+                      <Icon name="AlertCircle" size={24} className="text-primary" />
+                    </div>
+                    <div>
+                      <h3 className="font-display font-semibold text-lg mb-3">Важные советы</h3>
+                      <ul className="space-y-2 font-body text-sm text-muted-foreground">
+                        <li>• Всегда делайте тест на аллергию перед применением</li>
+                        <li>• Храните косметику в тёмном прохладном месте</li>
+                        <li>• Используйте только качественные эфирные масла</li>
+                        <li>• Беременным и детям проконсультируйтесь с врачом</li>
+                        <li>• Срок хранения домашней косметики — 1-2 месяца</li>
+                      </ul>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>
