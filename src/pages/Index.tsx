@@ -13,7 +13,7 @@ const Index = () => {
       properties: 'Успокаивает нервную систему, улучшает сон, снимает стресс',
       story: 'Как цветы в саду Иды, лаванда дарит покой и сладкие сны',
       icon: 'Flower2',
-      gradient: 'from-purple-200 via-purple-100 to-pink-100',
+      gradient: 'from-purple-900/40 via-purple-800/30 to-pink-900/30',
       image: 'https://images.unsplash.com/photo-1611251157398-e81a7c4e6b4d?w=400&h=400&fit=crop'
     },
     {
@@ -22,7 +22,7 @@ const Index = () => {
       properties: 'Омолаживает кожу, питает, разглаживает морщины',
       story: 'Роза - королева цветов, хранящая секреты вечной красоты',
       icon: 'Flower',
-      gradient: 'from-pink-200 via-rose-100 to-orange-100',
+      gradient: 'from-pink-900/40 via-rose-800/30 to-orange-900/30',
       image: 'https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?w=400&h=400&fit=crop'
     },
     {
@@ -31,7 +31,7 @@ const Index = () => {
       properties: 'Поднимает настроение, афродизиак, освежает',
       story: 'Жасмин распускается в лунном свете, даря магию и счастье',
       icon: 'Sparkles',
-      gradient: 'from-yellow-100 via-amber-50 to-orange-100',
+      gradient: 'from-yellow-900/40 via-amber-800/30 to-orange-900/30',
       image: 'https://images.unsplash.com/photo-1615282642825-bbe8a4c6e4fb?w=400&h=400&fit=crop'
     },
     {
@@ -40,7 +40,7 @@ const Index = () => {
       properties: 'Освежает, тонизирует, улучшает концентрацию',
       story: 'Мята растет у источника жизни, даря силы и энергию',
       icon: 'Leaf',
-      gradient: 'from-green-200 via-emerald-100 to-teal-100',
+      gradient: 'from-green-900/40 via-emerald-800/30 to-teal-900/30',
       image: 'https://images.unsplash.com/photo-1628556270448-4d4e4148e1b1?w=400&h=400&fit=crop'
     },
     {
@@ -58,7 +58,7 @@ const Index = () => {
       properties: 'Тонизирует, очищает, поднимает настроение',
       story: 'Лимон дарит солнечный свет даже в пасмурный день',
       icon: 'Sun',
-      gradient: 'from-yellow-200 via-yellow-100 to-lime-100',
+      gradient: 'from-yellow-900/40 via-yellow-800/30 to-lime-900/30',
       image: 'https://images.unsplash.com/photo-1590502593747-42a996133562?w=400&h=400&fit=crop'
     },
     {
@@ -67,7 +67,7 @@ const Index = () => {
       properties: 'Афродизиак, снимает тревогу, пробуждает чувства',
       story: 'Иланг-иланг цветет в райском саду, где рождаются мечты',
       icon: 'Heart',
-      gradient: 'from-violet-200 via-fuchsia-100 to-pink-100',
+      gradient: 'from-violet-900/40 via-fuchsia-800/30 to-pink-900/30',
       image: 'https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?w=400&h=400&fit=crop'
     },
     {
@@ -76,7 +76,7 @@ const Index = () => {
       properties: 'Антибактериальное, заживляет, защищает кожу',
       story: 'Чайное дерево — страж здоровья и чистоты',
       icon: 'Shield',
-      gradient: 'from-emerald-200 via-green-100 to-lime-100',
+      gradient: 'from-emerald-900/40 via-green-800/30 to-lime-900/30',
       image: 'https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=400&h=400&fit=crop'
     },
     {
@@ -85,7 +85,7 @@ const Index = () => {
       properties: 'Балансирует гормоны, улучшает состояние кожи, успокаивает',
       story: 'Герань цветет на подоконнике Иды, охраняя дом от печали',
       icon: 'Flower',
-      gradient: 'from-rose-200 via-pink-100 to-red-100',
+      gradient: 'from-rose-900/40 via-pink-800/30 to-red-900/30',
       image: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=400&h=400&fit=crop'
     },
     {
@@ -94,7 +94,7 @@ const Index = () => {
       properties: 'Афродизиак, успокаивает, улучшает настроение',
       story: 'Пачули хранит древние тайны восточных садов',
       icon: 'Moon',
-      gradient: 'from-amber-200 via-orange-100 to-yellow-100',
+      gradient: 'from-amber-900/40 via-orange-800/30 to-yellow-900/30',
       image: 'https://images.unsplash.com/photo-1508062878650-88b52897f298?w=400&h=400&fit=crop'
     },
     {
@@ -103,7 +103,7 @@ const Index = () => {
       properties: 'Успокаивает ум, способствует медитации, афродизиак',
       story: 'Сандал растет в священных рощах, где время течет медленно',
       icon: 'TreePine',
-      gradient: 'from-stone-200 via-neutral-100 to-amber-100',
+      gradient: 'from-stone-900/40 via-neutral-800/30 to-amber-900/30',
       image: 'https://images.unsplash.com/photo-1615361200098-e7d309f6e6f7?w=400&h=400&fit=crop'
     },
     {
@@ -112,7 +112,7 @@ const Index = () => {
       properties: 'Успокаивает кожу, снимает раздражение, помогает при бессоннице',
       story: 'Ромашка — самый добрый цветок в саду Иды',
       icon: 'Sun',
-      gradient: 'from-yellow-100 via-amber-50 to-white',
+      gradient: 'from-yellow-900/40 via-amber-800/30 to-stone-800/20',
       image: 'https://images.unsplash.com/photo-1563136865-def69f663c0b?w=400&h=400&fit=crop'
     },
     {
@@ -121,7 +121,7 @@ const Index = () => {
       properties: 'Антидепрессант, тонизирует, поднимает настроение',
       story: 'Бергамот дарит солнечную радость даже в хмурые дни',
       icon: 'Sparkles',
-      gradient: 'from-lime-200 via-green-100 to-yellow-100',
+      gradient: 'from-lime-900/40 via-green-800/30 to-yellow-900/30',
       image: 'https://images.unsplash.com/photo-1582794543139-8ac9cb0f7b11?w=400&h=400&fit=crop'
     },
     {
@@ -130,7 +130,7 @@ const Index = () => {
       properties: 'Снимает стресс, афродизиак, улучшает сон',
       story: 'Нероли — цветок апельсинового дерева, аромат невест',
       icon: 'Cherry',
-      gradient: 'from-orange-100 via-peach-50 to-white',
+      gradient: 'from-orange-900/40 via-orange-800/30 to-stone-800/20',
       image: 'https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?w=400&h=400&fit=crop'
     },
     {
@@ -139,7 +139,7 @@ const Index = () => {
       properties: 'Укрепляет нервную систему, антисептик, заземляет',
       story: 'Кедр — могучее дерево, дарящее силу и стойкость',
       icon: 'TreePine',
-      gradient: 'from-green-300 via-teal-100 to-emerald-100',
+      gradient: 'from-green-900/40 via-teal-800/30 to-emerald-900/30',
       image: 'https://images.unsplash.com/photo-1511497584788-876760111969?w=400&h=400&fit=crop'
     },
     {
@@ -148,7 +148,7 @@ const Index = () => {
       properties: 'Согревает, афродизиак, тонизирует, улучшает кровообращение',
       story: 'Корица — пряный огонь, разжигающий страсть и жизненную силу',
       icon: 'Flame',
-      gradient: 'from-red-200 via-orange-100 to-amber-100',
+      gradient: 'from-red-900/40 via-orange-800/30 to-amber-900/30',
       image: 'https://images.unsplash.com/photo-1627662235549-e8c2e2c22b09?w=400&h=400&fit=crop'
     },
     {
@@ -157,7 +157,7 @@ const Index = () => {
       properties: 'Тонизирует, помогает похудеть, освежает',
       story: 'Грейпфрут дарит утреннюю бодрость и легкость',
       icon: 'Zap',
-      gradient: 'from-pink-200 via-orange-100 to-yellow-100',
+      gradient: 'from-pink-900/40 via-orange-800/30 to-yellow-900/30',
       image: 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400&h=400&fit=crop'
     },
     {
@@ -166,7 +166,7 @@ const Index = () => {
       properties: 'Очищает организм, выводит токсины, дезинфицирует',
       story: 'Можжевельник — хранитель чистоты тела и духа',
       icon: 'Droplets',
-      gradient: 'from-blue-200 via-teal-100 to-green-100',
+      gradient: 'from-blue-900/40 via-teal-800/30 to-green-900/30',
       image: 'https://images.unsplash.com/photo-1542396601-dca920ea2807?w=400&h=400&fit=crop'
     },
     {
@@ -175,7 +175,7 @@ const Index = () => {
       properties: 'Помогает при простуде, очищает воздух, укрепляет иммунитет',
       story: 'Пихта приносит свежесть дремучего леса в ваш дом',
       icon: 'TreePine',
-      gradient: 'from-emerald-200 via-green-100 to-teal-100',
+      gradient: 'from-emerald-900/40 via-green-800/30 to-teal-900/30',
       image: 'https://images.unsplash.com/photo-1516738901171-8eb4fc13bd20?w=400&h=400&fit=crop'
     },
     {
@@ -184,7 +184,7 @@ const Index = () => {
       properties: 'Заземляет, успокаивает, помогает при стрессе',
       story: 'Ветивер уходит корнями глубоко в землю, даря устойчивость',
       icon: 'Anchor',
-      gradient: 'from-stone-300 via-neutral-200 to-slate-100',
+      gradient: 'from-stone-900/40 via-neutral-800/30 to-slate-900/30',
       image: 'https://images.unsplash.com/photo-1591018653367-1fe170ab6dae?w=400&h=400&fit=crop'
     },
     {
@@ -193,7 +193,7 @@ const Index = () => {
       properties: 'Улучшает память, снимает усталость, проясняет ум',
       story: 'Базилик рос на кухне Иды, даря ясность мыслей',
       icon: 'Brain',
-      gradient: 'from-green-200 via-lime-100 to-yellow-100',
+      gradient: 'from-green-900/40 via-lime-800/30 to-yellow-900/30',
       image: 'https://images.unsplash.com/photo-1618375569909-3c8616cf7733?w=400&h=400&fit=crop'
     },
     {
@@ -202,7 +202,7 @@ const Index = () => {
       properties: 'Улучшает пищеварение, снимает спазмы, очищает',
       story: 'Фенхель — друг желудка и помощник в очищении',
       icon: 'Soup',
-      gradient: 'from-lime-200 via-green-100 to-emerald-100',
+      gradient: 'from-lime-900/40 via-green-800/30 to-emerald-900/30',
       image: 'https://images.unsplash.com/photo-1628556270448-4d4e4148e1b1?w=400&h=400&fit=crop'
     },
     {
@@ -211,7 +211,7 @@ const Index = () => {
       properties: 'Успокаивает сердце, снимает тревогу, помогает при депрессии',
       story: 'Мелисса — лимонный бальзам для усталой души',
       icon: 'HeartPulse',
-      gradient: 'from-yellow-100 via-lime-50 to-green-100',
+      gradient: 'from-yellow-900/40 via-lime-800/30 to-green-900/30',
       image: 'https://images.unsplash.com/photo-1609126448414-d30924652979?w=400&h=400&fit=crop'
     },
     {
@@ -220,7 +220,7 @@ const Index = () => {
       properties: 'Балансирует гормоны, антисептик, снимает воспаления',
       story: 'Шалфей — мудрый целитель женских недугов',
       icon: 'BookOpen',
-      gradient: 'from-purple-200 via-violet-100 to-indigo-100',
+      gradient: 'from-purple-900/40 via-violet-800/30 to-indigo-900/30',
       image: 'https://images.unsplash.com/photo-1629375925753-5c6d64f7eed1?w=400&h=400&fit=crop'
     },
     {
@@ -229,7 +229,7 @@ const Index = () => {
       properties: 'Укрепляет иммунитет, антисептик, придает бодрость',
       story: 'Тимьян дарит храбрость и стойкость в трудные времена',
       icon: 'Sword',
-      gradient: 'from-red-200 via-pink-100 to-purple-100',
+      gradient: 'from-red-900/40 via-pink-800/30 to-purple-900/30',
       image: 'https://images.unsplash.com/photo-1612363148424-f7d4f2c10665?w=400&h=400&fit=crop'
     },
     {
@@ -238,7 +238,7 @@ const Index = () => {
       properties: 'Снимает мышечное напряжение, успокаивает, помогает уснуть',
       story: 'Майоран убаюкивает и дарит глубокий покой',
       icon: 'BedDouble',
-      gradient: 'from-gray-200 via-slate-100 to-zinc-100',
+      gradient: 'from-gray-900/40 via-slate-800/30 to-zinc-900/30',
       image: 'https://images.unsplash.com/photo-1603048588665-791ca8aea617?w=400&h=400&fit=crop'
     },
     {
@@ -247,7 +247,7 @@ const Index = () => {
       properties: 'Освежает, снимает стресс, тонизирует кожу',
       story: 'Петитгрейн — молодые листья апельсина, символ обновления',
       icon: 'RefreshCw',
-      gradient: 'from-green-200 via-lime-100 to-yellow-100',
+      gradient: 'from-green-900/40 via-lime-800/30 to-yellow-900/30',
       image: 'https://images.unsplash.com/photo-1613647116129-13dc7f665c4e?w=400&h=400&fit=crop'
     },
     {
@@ -256,7 +256,7 @@ const Index = () => {
       properties: 'Заживляет, антисептик, способствует медитации',
       story: 'Мирра — священная смола, дар древних королей',
       icon: 'Church',
-      gradient: 'from-amber-300 via-orange-200 to-red-100',
+      gradient: 'from-amber-900/40 via-orange-800/30 to-red-900/30',
       image: 'https://images.unsplash.com/photo-1604600659542-f7035a4a9c1d?w=400&h=400&fit=crop'
     },
     {
@@ -265,7 +265,7 @@ const Index = () => {
       properties: 'Успокаивает, способствует медитации, омолаживает кожу',
       story: 'Ладан возносит молитвы к небесам',
       icon: 'Flame',
-      gradient: 'from-sky-200 via-blue-100 to-indigo-100',
+      gradient: 'from-sky-900/40 via-blue-800/30 to-indigo-900/30',
       image: 'https://images.unsplash.com/photo-1620706857370-e1b9770e8bb1?w=400&h=400&fit=crop'
     },
     {
@@ -274,7 +274,7 @@ const Index = () => {
       properties: 'Улучшает память, стимулирует кровообращение, бодрит',
       story: 'Розмарин — символ памяти и верности',
       icon: 'Library',
-      gradient: 'from-teal-200 via-cyan-100 to-blue-100',
+      gradient: 'from-teal-900/40 via-cyan-800/30 to-blue-900/30',
       image: 'https://images.unsplash.com/photo-1595850759747-0bb2c87ef1fa?w=400&h=400&fit=crop'
     },
     {
@@ -283,7 +283,7 @@ const Index = () => {
       properties: 'Согревает, обезболивает, афродизиак, антисептик',
       story: 'Гвоздика — пряный огонь страсти и силы',
       icon: 'Sparkle',
-      gradient: 'from-red-300 via-rose-200 to-pink-100',
+      gradient: 'from-red-900/40 via-rose-800/30 to-pink-900/30',
       image: 'https://images.unsplash.com/photo-1632053002308-0e3fde544f3e?w=400&h=400&fit=crop'
     },
     {
@@ -292,7 +292,7 @@ const Index = () => {
       properties: 'Согревает, улучшает пищеварение, снимает тошноту',
       story: 'Имбирь дарит согревающее тепло и жизненную силу',
       icon: 'Thermometer',
-      gradient: 'from-orange-300 via-amber-200 to-yellow-100',
+      gradient: 'from-orange-900/40 via-amber-800/30 to-yellow-900/30',
       image: 'https://images.unsplash.com/photo-1599912027162-c5b8f5935edd?w=400&h=400&fit=crop'
     },
     {
@@ -301,7 +301,7 @@ const Index = () => {
       properties: 'Успокаивает детей, поднимает настроение, помогает уснуть',
       story: 'Мандарин пахнет новогодним праздником и детской радостью',
       icon: 'Baby',
-      gradient: 'from-orange-200 via-yellow-100 to-amber-100',
+      gradient: 'from-orange-900/40 via-yellow-800/30 to-amber-900/30',
       image: 'https://images.unsplash.com/photo-1587049332474-5405800f57de?w=400&h=400&fit=crop'
     },
     {
@@ -310,7 +310,7 @@ const Index = () => {
       properties: 'Успокаивает, афродизиак, создает уют',
       story: 'Ваниль — сладкий аромат домашнего тепла',
       icon: 'Home',
-      gradient: 'from-amber-100 via-yellow-50 to-orange-50',
+      gradient: 'from-amber-900/40 via-yellow-800/30 to-orange-900/30',
       image: 'https://images.unsplash.com/photo-1596040704871-aba8e72403e3?w=400&h=400&fit=crop'
     },
     {
@@ -319,7 +319,7 @@ const Index = () => {
       properties: 'Помогает при переходных периодах, успокаивает, укрепляет',
       story: 'Кипарис — дерево вечности, помогающее отпустить прошлое',
       icon: 'Hourglass',
-      gradient: 'from-emerald-300 via-teal-200 to-cyan-100',
+      gradient: 'from-emerald-900/40 via-teal-800/30 to-cyan-900/30',
       image: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&h=400&fit=crop'
     },
     {
@@ -328,7 +328,7 @@ const Index = () => {
       properties: 'Успокаивает, помогает при бессоннице, афродизиак',
       story: 'Нард — древнее масло преданности и верности',
       icon: 'Infinity',
-      gradient: 'from-purple-300 via-violet-200 to-pink-100',
+      gradient: 'from-purple-900/40 via-violet-800/30 to-pink-900/30',
       image: 'https://images.unsplash.com/photo-1612170153139-6f881ff067e0?w=400&h=400&fit=crop'
     },
     {
@@ -337,14 +337,14 @@ const Index = () => {
       properties: 'Поднимает настроение, снимает тревогу, освежает',
       story: 'Апельсин — солнечный фрукт, дарящий радость',
       icon: 'Smile',
-      gradient: 'from-orange-300 via-yellow-200 to-amber-100',
+      gradient: 'from-orange-900/40 via-yellow-800/30 to-amber-900/30',
       image: 'https://images.unsplash.com/photo-1580052614034-c55d20bfee3b?w=400&h=400&fit=crop'
     }
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-primary/10 via-accent/10 to-secondary/10">
-      <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-primary/20">
+    <div className="min-h-screen bg-gradient-to-b from-background via-background/95 to-background">
+      <nav className="sticky top-0 z-50 bg-card/90 backdrop-blur-md border-b border-border">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <h1 className="text-2xl md:text-3xl font-display font-bold text-primary">
@@ -424,7 +424,7 @@ const Index = () => {
               {oils.map((oil, index) => (
                 <Card 
                   key={index} 
-                  className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-primary/20 overflow-hidden bg-white"
+                  className="group hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-border overflow-hidden bg-card"
                   style={{ animationDelay: `${index * 150}ms` }}
                 >
                   <div className={`h-48 bg-gradient-to-br ${oil.gradient} relative overflow-hidden`}>
@@ -433,8 +433,8 @@ const Index = () => {
                       alt={oil.name}
                       className="w-full h-full object-cover opacity-70 group-hover:scale-110 transition-transform duration-500"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent" />
-                    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 w-16 h-16 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center shadow-lg animate-float">
+                    <div className="absolute inset-0 bg-gradient-to-t from-card via-transparent to-transparent" />
+                    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 w-16 h-16 rounded-full bg-card/95 backdrop-blur-sm flex items-center justify-center shadow-lg animate-float">
                       <Icon name={oil.icon} size={32} className="text-primary" />
                     </div>
                   </div>
@@ -481,10 +481,10 @@ const Index = () => {
                   alt="Сказочный сад"
                   className="w-full h-64 md:h-80 object-cover opacity-40"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-white via-white/50 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
               </div>
 
-              <Card className="mb-8 border-primary/20 bg-white/80 backdrop-blur-sm">
+              <Card className="mb-8 border-border bg-card/80 backdrop-blur-sm">
                 <CardContent className="p-8 md:p-12">
                   <div className="prose prose-lg max-w-none">
                     <p className="text-lg leading-relaxed font-body text-foreground mb-6">
@@ -560,7 +560,7 @@ const Index = () => {
               {oils.map((oil, index) => (
                 <Card 
                   key={index} 
-                  className="border-primary/20 bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all duration-300"
+                  className="border-border bg-card/80 backdrop-blur-sm hover:shadow-2xl transition-all duration-300"
                 >
                   <CardHeader>
                     <div className="flex items-center gap-4">
@@ -612,7 +612,7 @@ const Index = () => {
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-              <Card className="border-primary/20 bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all">
+              <Card className="border-border bg-card/90 backdrop-blur-sm hover:shadow-2xl transition-all">
                 <CardHeader>
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
@@ -657,7 +657,7 @@ const Index = () => {
                 </CardContent>
               </Card>
 
-              <Card className="border-primary/20 bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all">
+              <Card className="border-border bg-card/90 backdrop-blur-sm hover:shadow-2xl transition-all">
                 <CardHeader>
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center">
@@ -701,7 +701,7 @@ const Index = () => {
                 </CardContent>
               </Card>
 
-              <Card className="border-primary/20 bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all">
+              <Card className="border-border bg-card/90 backdrop-blur-sm hover:shadow-2xl transition-all">
                 <CardHeader>
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-12 h-12 rounded-full bg-yellow-100 flex items-center justify-center">
@@ -745,7 +745,7 @@ const Index = () => {
                 </CardContent>
               </Card>
 
-              <Card className="border-primary/20 bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all">
+              <Card className="border-border bg-card/90 backdrop-blur-sm hover:shadow-2xl transition-all">
                 <CardHeader>
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-12 h-12 rounded-full bg-pink-100 flex items-center justify-center">
@@ -790,7 +790,7 @@ const Index = () => {
                 </CardContent>
               </Card>
 
-              <Card className="border-primary/20 bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all">
+              <Card className="border-border bg-card/90 backdrop-blur-sm hover:shadow-2xl transition-all">
                 <CardHeader>
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
@@ -834,7 +834,7 @@ const Index = () => {
                 </CardContent>
               </Card>
 
-              <Card className="border-primary/20 bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all">
+              <Card className="border-border bg-card/90 backdrop-blur-sm hover:shadow-2xl transition-all">
                 <CardHeader>
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-12 h-12 rounded-full bg-teal-100 flex items-center justify-center">
@@ -904,7 +904,7 @@ const Index = () => {
         </section>
       )}
 
-      <footer className="bg-primary/5 border-t border-primary/20 mt-16">
+      <footer className="bg-card/50 border-t border-border mt-16">
         <div className="container mx-auto px-4 py-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
             <div>
@@ -933,7 +933,7 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className="text-center mt-8 pt-8 border-t border-primary/20">
+          <div className="text-center mt-8 pt-8 border-t border-border">
             <p className="font-body text-sm text-muted-foreground">
               © 2024 Цветы Иды. Создано с любовью и волшебством ✨
             </p>
