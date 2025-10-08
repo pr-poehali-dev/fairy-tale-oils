@@ -42,6 +42,42 @@ const Index = () => {
       icon: 'Leaf',
       gradient: 'from-green-200 via-emerald-100 to-teal-100',
       image: 'https://images.unsplash.com/photo-1628556270448-4d4e4148e1b1?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Эвкалиптовое дыхание',
+      description: 'Масло эвкалипта для легкости и здоровья',
+      properties: 'Очищает дыхательные пути, антисептик, укрепляет иммунитет',
+      story: 'Эвкалипт — хранитель чистого воздуха и здорового дыхания',
+      icon: 'Wind',
+      gradient: 'from-teal-200 via-cyan-100 to-blue-100',
+      image: 'https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Лимонная радость',
+      description: 'Масло лимона для энергии и оптимизма',
+      properties: 'Тонизирует, очищает, поднимает настроение',
+      story: 'Лимон дарит солнечный свет даже в пасмурный день',
+      icon: 'Sun',
+      gradient: 'from-yellow-200 via-yellow-100 to-lime-100',
+      image: 'https://images.unsplash.com/photo-1590502593747-42a996133562?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Иланг-иланг мечты',
+      description: 'Масло иланг-иланга для страсти и романтики',
+      properties: 'Афродизиак, снимает тревогу, пробуждает чувства',
+      story: 'Иланг-иланг цветет в райском саду, где рождаются мечты',
+      icon: 'Heart',
+      gradient: 'from-violet-200 via-fuchsia-100 to-pink-100',
+      image: 'https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?w=400&h=400&fit=crop'
+    },
+    {
+      name: 'Чайное дерево защиты',
+      description: 'Масло чайного дерева для очищения',
+      properties: 'Антибактериальное, заживляет, защищает кожу',
+      story: 'Чайное дерево — страж здоровья и чистоты',
+      icon: 'Shield',
+      gradient: 'from-emerald-200 via-green-100 to-lime-100',
+      image: 'https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=400&h=400&fit=crop'
     }
   ];
 
